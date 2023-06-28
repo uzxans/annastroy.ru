@@ -1,0 +1,18 @@
+@media(20rem <=width <=50rem) {
+
+  .mob_menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav .mob_menu .menu_btn {
+    display: none;
+  }
+
+
+}
+
+
+.modalBtn:hover+.real {
+  display: block !important;
+}
